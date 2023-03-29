@@ -1,0 +1,43 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit'
+}
+
+body{
+  display: grid;
+  margin: 0 auto;
+  background-color: #D5E1EF;
+  width: 100%;
+  height: 100vh;
+  place-items: center;
+}
+
+.container{
+  background-color: #FFF;
+  width: 320px;
+  height: 490px;
+  border-radius: 20px;
+  text-align: center;
+}
+.image img{
+  width: 280px;
+  height: 280px;
+  margin: 1rem;
+  border-radius: 20px;
+}
+ .text{
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+ }
+ .text h1{
+  color: #2C3C55;
+  font-weight: bold;
+  font-size: 1.5rem;
+ }
+ .text span{
+  color: #A7ABB4;
+ }
